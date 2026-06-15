@@ -72,8 +72,8 @@ export async function scanSPAXSS(
 
         description:
   `Element Type: ${input.tag}
-Input Type: ${input.type}
-Identifier: ${input.name}`,
+Input Type: ${input.inputType}
+Identifier: ${input.identifier}`,
       });
     }
 console.log(

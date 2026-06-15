@@ -36,7 +36,7 @@ export async function scanWebsite(
     const findings: Finding[] = [
       ...headerFindings,
       ...sslFindings,
-        ...xssFindings
+        ...(xssFindings || []),
     ];
 
     let score = 100;
