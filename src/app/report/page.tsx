@@ -1,8 +1,6 @@
 "use client";
 import RecommendationCard from "@/components/report/recommendation-card";
-import SeverityChart from "@/components/charts/severity-chart";
 
-import ScoreGauge from "@/components/charts/score-gauge";
 import { useAdvice } from "@/hooks/useAdvice";
 import { useEffect, useState } from "react";
 import ExecutiveSummary from "@/components/report/executive-summary";
